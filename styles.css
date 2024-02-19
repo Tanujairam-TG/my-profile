@@ -1,26 +1,35 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f2f2f2;
 }
 
 header {
     background-color: #3498db;
     color: #fff;
-    text-align: center;
     padding: 20px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-text {
+    text-align: left;
 }
 
 .profile-info {
     text-align: center;
     padding: 20px;
-}
-
-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
 }
 
 .social-links {
@@ -31,7 +40,8 @@ img {
 a {
     text-decoration: none;
     color: #3498db;
-    margin: 0 10px;
+    margin: 0 15px;
+    font-size: 18px;
 }
 
 footer {
